@@ -1,5 +1,7 @@
+import GitHubProfile from '../components/debug-value/GitHubProfile';
+
 const DebugValue = () => {
-    return <div>DebugValue</div>;
+    return <GitHubProfile />;
 };
 
 export default DebugValue;
