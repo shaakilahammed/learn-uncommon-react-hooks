@@ -26,6 +26,11 @@ const menuItems = [
         name: 'useDeferredValue',
         link: '/deferred-value',
     },
+    {
+        id: 6,
+        name: 'useInsertionEffect',
+        link: '/insertion-effect',
+    },
 ];
 
 const Navbar = () => {

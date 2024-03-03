@@ -3,6 +3,7 @@ import IdForm from './components/id/IdForm';
 import DebugValue from './pages/DebugValue';
 import DefferedValue from './pages/DefferedValue';
 import Home from './pages/Home';
+import InsertionEffect from './pages/InsertionEffect';
 import Transition from './pages/Transition';
 
 function App() {
@@ -22,6 +23,10 @@ function App() {
                     <Route path="/id" element={<IdForm />} />
                     <Route path="/transition" element={<Transition />} />
                     <Route path="/deferred-value" element={<DefferedValue />} />
+                    <Route
+                        path="/insertion-effect"
+                        element={<InsertionEffect />}
+                    />
                 </Route>
             </Routes>
         </BrowserRouter>
