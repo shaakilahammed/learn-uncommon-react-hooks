@@ -31,6 +31,11 @@ const menuItems = [
         name: 'useInsertionEffect',
         link: '/insertion-effect',
     },
+    {
+        id: 7,
+        name: 'useImperativeHandle',
+        link: '/imperative-handle',
+    },
 ];
 
 const Navbar = () => {

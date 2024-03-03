@@ -3,6 +3,7 @@ import IdForm from './components/id/IdForm';
 import DebugValue from './pages/DebugValue';
 import DefferedValue from './pages/DefferedValue';
 import Home from './pages/Home';
+import ImperativeHandle from './pages/ImperativeHandle';
 import InsertionEffect from './pages/InsertionEffect';
 import Transition from './pages/Transition';
 
@@ -26,6 +27,10 @@ function App() {
                     <Route
                         path="/insertion-effect"
                         element={<InsertionEffect />}
+                    />
+                    <Route
+                        path="/imperative-handle"
+                        element={<ImperativeHandle />}
                     />
                 </Route>
             </Routes>
