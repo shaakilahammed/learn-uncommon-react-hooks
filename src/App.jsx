@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import IdForm from './components/id/IdForm';
 import DebugValue from './pages/DebugValue';
+import DefferedValue from './pages/DefferedValue';
 import Home from './pages/Home';
 import Transition from './pages/Transition';
 
@@ -20,6 +21,7 @@ function App() {
                     <Route path="/debug-value" element={<DebugValue />} />
                     <Route path="/id" element={<IdForm />} />
                     <Route path="/transition" element={<Transition />} />
+                    <Route path="/deferred-value" element={<DefferedValue />} />
                 </Route>
             </Routes>
         </BrowserRouter>

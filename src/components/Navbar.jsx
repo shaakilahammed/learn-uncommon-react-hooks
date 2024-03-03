@@ -21,6 +21,11 @@ const menuItems = [
         name: 'useTransition',
         link: '/transition',
     },
+    {
+        id: 5,
+        name: 'useDeferredValue',
+        link: '/deferred-value',
+    },
 ];
 
 const Navbar = () => {
