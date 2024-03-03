@@ -16,6 +16,11 @@ const menuItems = [
         name: 'useId',
         link: '/id',
     },
+    {
+        id: 4,
+        name: 'useTransition',
+        link: '/transition',
+    },
 ];
 
 const Navbar = () => {
