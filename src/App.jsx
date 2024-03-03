@@ -1,4 +1,5 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import IdForm from './components/id/IdForm';
 import DebugValue from './pages/DebugValue';
 import Home from './pages/Home';
 
@@ -16,6 +17,7 @@ function App() {
                         index
                     />
                     <Route path="/debug-value" element={<DebugValue />} />
+                    <Route path="/id" element={<IdForm />} />
                 </Route>
             </Routes>
         </BrowserRouter>

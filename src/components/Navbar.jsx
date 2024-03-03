@@ -11,6 +11,11 @@ const menuItems = [
         name: 'useDebugValue',
         link: '/debug-value',
     },
+    {
+        id: 3,
+        name: 'useId',
+        link: '/id',
+    },
 ];
 
 const Navbar = () => {
