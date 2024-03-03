@@ -15,9 +15,15 @@ function App() {
                 <Route path="/" element={<Home />}>
                     <Route
                         element={
-                            <h2 className="text-center text-xl">
-                                React Uncommon Hooks
-                            </h2>
+                            <div className="flex h-[50vh] justify-start items-center">
+                                <h2 className="text-center text-xl text-pink-400 max-w-screen-md mx-auto">
+                                    Example of less used uncommon but advanced
+                                    React Hooks like useDebugValue,
+                                    useDeferredValue, useId,
+                                    useImperativeHandle, useInsertionEffect,
+                                    useLayoutEffect and useTransition
+                                </h2>
+                            </div>
                         }
                         index
                     />
