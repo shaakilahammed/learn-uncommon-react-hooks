@@ -5,6 +5,7 @@ import DefferedValue from './pages/DefferedValue';
 import Home from './pages/Home';
 import ImperativeHandle from './pages/ImperativeHandle';
 import InsertionEffect from './pages/InsertionEffect';
+import LayoutEffect from './pages/LayoutEffect';
 import Transition from './pages/Transition';
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
                         path="/imperative-handle"
                         element={<ImperativeHandle />}
                     />
+                    <Route path="/layout-effect" element={<LayoutEffect />} />
                 </Route>
             </Routes>
         </BrowserRouter>

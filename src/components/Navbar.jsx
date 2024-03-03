@@ -2,11 +2,6 @@ import { Link, NavLink } from 'react-router-dom';
 
 const menuItems = [
     {
-        id: 1,
-        name: 'Home',
-        link: '/',
-    },
-    {
         id: 2,
         name: 'useDebugValue',
         link: '/debug-value',
@@ -35,6 +30,11 @@ const menuItems = [
         id: 7,
         name: 'useImperativeHandle',
         link: '/imperative-handle',
+    },
+    {
+        id: 8,
+        name: 'useLayoutEffect',
+        link: '/layout-effect',
     },
 ];
 
